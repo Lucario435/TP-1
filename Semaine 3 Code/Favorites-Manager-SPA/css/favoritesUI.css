@@ -1,0 +1,74 @@
+
+.favoriteRow {
+    padding: 8px;
+    padding-bottom: 0px;
+    scroll-snap-align: start;
+}
+
+.favoriteContainer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: top;
+    background-color: rgb(239, 239, 239);
+    border-radius: 6px;
+}
+
+
+.favoriteContainer .cmdIcon {
+    display: none;
+}
+
+.favoriteContainer:hover .cmdIcon {
+    display: block;
+}
+
+.favoriteLayout {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 8px;
+    align-items: center;
+}
+
+.favoriteTitle {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.big-favicon {
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 48px;
+    width: 48px;
+    margin-right: 5px;
+}
+
+.small-favicon {
+    text-align: center;
+    background-image: url("../Loading_icon.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 5px;
+}
+
+.favoriteUrl {
+
+}
+
+.favoriteCategory {
+
+}
+
+.favoriteCommandPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.favoritedeleteForm {
+    margin: 20px;
+}

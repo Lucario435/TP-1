@@ -6,12 +6,12 @@
   },
   "version": "1.0.0",
   "description": "Serveur http minimal",
-  "main": "ContactsService.js",
+  "main": "FavoriteService.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ContactsService.js"
+    "start": "node FavoriteService.js"
   },
-  "author": "Nicolas Chourot",
+  "author": "Jonathan Billette",
   "license": "ISC",
   "dependencies": {
     "query-string": "^8.1.0",

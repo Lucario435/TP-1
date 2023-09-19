@@ -1,21 +1,21 @@
-class Contacts_API {
-    static API_URL() { return "http://localhost:5000/api/contacts" };
+class Favorites_API {
+    static API_URL() { return "http://localhost:5000/api/favorite" };
     static async Get(id = null) {
         return new Promise(resolve => {
             $.ajax({
                 url: this.API_URL() + (id != null ? "/" + id : ""),
-                success: contacts => { resolve(contacts); },
+                success: favorites => { resolve(favorites); },
                 error: (xhr) => { console.log(xhr); resolve(null); }
             });
         });
     }
-    static async Save(contact, create = true) {
+    static async Save(favorite, create = true) {
         return new Promise(resolve => {
             $.ajax({
                 url: this.API_URL(),
                 type: create ? "POST" : "PUT",
                 contentType: 'application/json',
-                data: JSON.stringify(contact),
+                data: JSON.stringify(favorite),
                 success: (/*data*/) => { resolve(true); },
                 error: (/*xhr*/) => { resolve(false /*xhr.status*/); }
             });

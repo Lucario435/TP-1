@@ -1,6 +1,6 @@
 {
-    "name": "Contacts Manager",
-    "short_name": "Contacts Manager",
+    "name": "Favorites Manager",
+    "short_name": "Favorites Manager",
     "icons": [
         {
             "src": "contact-logo.svg",

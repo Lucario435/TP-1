@@ -1,0 +1,27 @@
+[
+    {
+        "Id": 1,
+        "Title": "Collège Lionel-Groulx",
+        "Url": "https://clg.qc.ca/colnet/",
+        "Category": "Cegep"
+    },
+    {
+        "Id": 2,
+        "Title": "Météo Boisbriand",
+        "Url": "https://www.meteomedia.com/ca/previsions-meteo-36-heures/quebec/boisbriand",
+        "Category": "Météo"
+    },
+    {
+        "Id": 3,
+        "Title": "Youtube",
+        "Url": "https://www.youtube.com/",
+        "Category": "Réseau Social"
+    },
+    {
+        "Id": 4,
+        "Title": "Netflix",
+        "Url": "https://www.netflix.com/",
+        "Category": "Réseau Social"
+    }
+    
+]
